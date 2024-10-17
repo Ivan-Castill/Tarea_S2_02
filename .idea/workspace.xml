@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e57be27c-87e8-4f5d-9eb2-46a18a5c2f84" name="Changes" comment="">
+    <list default="true" id="e57be27c-87e8-4f5d-9eb2-46a18a5c2f84" name="Changes" comment="Tarea_S2_Ejercicio02_LosEmpleados">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -16,6 +16,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Ivan-Castill"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/Ivan-Castill/Tarea_S2_02.git",
@@ -48,6 +54,19 @@
       <option name="presentableId" value="Default" />
       <updated>1729131513622</updated>
     </task>
+    <task id="LOCAL-00001" summary="Tarea_S2_Ejercicio02_LosEmpleados">
+      <option name="closed" value="true" />
+      <created>1729132627855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729132627855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Tarea_S2_Ejercicio02_LosEmpleados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea_S2_Ejercicio02_LosEmpleados" />
   </component>
 </project>

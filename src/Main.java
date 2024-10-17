@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Empleado {
     // Atributos
     private String nombre;
@@ -18,15 +19,29 @@ class Empleado {
         System.out.println("Fecha de ingreso: " + fechaIngreso);
         System.out.println();
     }
+    //registrar un empleado
+    public static Empleado registrarEmpleado() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Ingrese el nombre del empleado: ");
+        String nombre = scanner.nextLine();
+        System.out.print("Ingrese el cargo del empleado: ");
+        String cargo = scanner.nextLine();
+        System.out.print("Ingrese el salario del empleado: ");
+        double salario = scanner.nextDouble();
+        scanner.nextLine();  // Consumir la nueva línea después de ingresar el salario
+        System.out.print("Ingrese la fecha de ingreso del empleado (dd/mm/yyyy): ");
+        String fechaIngreso = scanner.nextLine();
+        return new Empleado(nombre, cargo, salario, fechaIngreso);
+    }
 }
 public class Main {
     public static void main(String[] args) {
-        //datos quemados
-        Empleado empleado1 = new Empleado("Juan Pérez", "Gerente", 2500.50, "01/03/2020");
-        Empleado empleado2 = new Empleado("María López", "Contadora", 1800.75, "12/11/2019");
-        Empleado empleado3 = new Empleado("Carlos García", "Ingeniero", 2000.00, "15/08/2018");
-        //mostrar la información de los empleados
-        System.out.println("Información de los empleados:");
+        System.out.println("Registro de empleados:");
+        Empleado empleado1 = Empleado.registrarEmpleado();
+        Empleado empleado2 = Empleado.registrarEmpleado();
+        Empleado empleado3 = Empleado.registrarEmpleado();
+        // Mostrar la información
+        System.out.println("\nInformación de los empleados:");
         empleado1.mostrarInformacion();
         empleado2.mostrarInformacion();
         empleado3.mostrarInformacion();
